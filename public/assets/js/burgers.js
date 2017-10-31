@@ -2,7 +2,7 @@
 $(function() {
   $(".change-eaten").on("click", function(event) {
     var id = $(this).data("id");
-    var newEaten = $(this).data("neweaten");
+    var newEaten = $(this).data("newEaten");
 
     var newEatenState = {
       eaten: newEaten
